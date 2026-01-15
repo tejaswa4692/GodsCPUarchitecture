@@ -2,4 +2,4 @@ Ths is gods cpu architecture, i was directly communicating to god when i was mak
 
 This is the 4bit register with a chip enable awnd read write 
 
-![Project logo](images/logo.png)
+![Project logo](Screenshot 2026-01-15 161331.png)
