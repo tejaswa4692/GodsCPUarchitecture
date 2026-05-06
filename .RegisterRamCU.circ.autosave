@@ -82,6 +82,21 @@
       <a name="incoming" val="4"/>
       <a name="spacing" val="9"/>
     </comp>
+    <comp lib="0" loc="(1130,1000)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1130,1090)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1130,1180)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1130,910)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1130,950)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
     <comp lib="0" loc="(1210,900)" name="Splitter">
       <a name="bit0" val="3"/>
       <a name="bit1" val="2"/>
@@ -119,6 +134,21 @@
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
       <a name="spacing" val="9"/>
+    </comp>
+    <comp lib="0" loc="(1320,1000)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1320,1090)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1320,1180)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1320,1220)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1320,910)" name="Pull Resistor">
+      <a name="facing" val="north"/>
     </comp>
     <comp lib="0" loc="(1400,900)" name="Splitter">
       <a name="bit0" val="3"/>
@@ -158,6 +188,21 @@
       <a name="incoming" val="4"/>
       <a name="spacing" val="9"/>
     </comp>
+    <comp lib="0" loc="(1500,1000)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1500,1090)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1500,1180)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1500,1220)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1500,910)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
     <comp lib="0" loc="(1580,900)" name="Splitter">
       <a name="bit0" val="3"/>
       <a name="bit1" val="2"/>
@@ -196,6 +241,21 @@
       <a name="incoming" val="4"/>
       <a name="spacing" val="9"/>
     </comp>
+    <comp lib="0" loc="(1670,1000)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1670,1090)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1670,1180)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1670,1220)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1670,910)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
     <comp lib="0" loc="(1750,900)" name="Splitter">
       <a name="bit0" val="3"/>
       <a name="bit1" val="2"/>
@@ -205,6 +265,9 @@
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
       <a name="spacing" val="9"/>
+    </comp>
+    <comp lib="0" loc="(470,1010)" name="Pull Resistor">
+      <a name="facing" val="east"/>
     </comp>
     <comp lib="0" loc="(560,1280)" name="Splitter">
       <a name="appear" val="center"/>
@@ -518,8 +581,9 @@
     <wire from="(1720,880)" to="(1740,880)"/>
     <wire from="(1750,550)" to="(1750,850)"/>
     <wire from="(1750,890)" to="(1750,900)"/>
+    <wire from="(470,1010)" to="(470,1040)"/>
     <wire from="(470,1040)" to="(650,1040)"/>
-    <wire from="(470,800)" to="(470,1040)"/>
+    <wire from="(470,800)" to="(470,1010)"/>
     <wire from="(470,800)" to="(530,800)"/>
     <wire from="(480,1000)" to="(610,1000)"/>
     <wire from="(480,760)" to="(480,1000)"/>
