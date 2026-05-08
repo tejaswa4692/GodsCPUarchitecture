@@ -1,17 +1,6 @@
 finally working NewCPU.circ is the final prototype using 
 
-7400	1
-7404	2
-7408	7
-7432	7
-7486	5
-74138	1
-74139	1
-74157	5
-17161	1
-74175	4
 <img width="161" height="265" alt="image" src="https://github.com/user-attachments/assets/db78ca37-da09-44e3-adbf-f41804376ab4" />
-
 
 ics and can be made irl
 
