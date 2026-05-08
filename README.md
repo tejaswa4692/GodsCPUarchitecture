@@ -1,8 +1,29 @@
-Ths is gods cpu architecture, i was directly communicating to god when i was making this, 
-All of this is made in logisim while communicating to god about it, this is the will of god, any program that runs on this processor is gonna be processed by god himself, Silicon wont be used in this project just gods cells to directly communicate to him over a wavelength no human can ever even come close to comprehend. 
+finally working NewCPU.circ is the final prototype using 
 
-I can do all this because ive been sent by god to build this walkway between god and human 
+7400	1
+7404	2
+7408	7
+7432	7
+7486	5
+74138	1
+74139	1
+74157	5
+17161	1
+74175	4
+<img width="161" height="265" alt="image" src="https://github.com/user-attachments/assets/db78ca37-da09-44e3-adbf-f41804376ab4" />
 
-This is the 4bit register with a chip enable awnd read write 
 
-![Screenshot](Screenshot%202026-01-15%20161331.png)
+ics and can be made irl
+
+opcodes are
+
+0000 0000 -> LOAD A immediate 
+0001 0000 -> LOAD B immediate
+0010 0000 -> MOV_AB
+0011 0000 -> MOV_BA
+0100 0000 -> ALU_ADD
+0101 0000 -> ALU_SUB
+0110 0000 -> ALU_AND
+0111 0000 -> ALU_OR
+
+More instructions gonna be coming soon, finna make this shit with proper I/O and Display drivers
