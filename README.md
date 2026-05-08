@@ -27,3 +27,5 @@ opcodes are
 0111 0000 -> ALU_OR
 
 More instructions gonna be coming soon, finna make this shit with proper I/O and Display drivers
+
+added a python assembler in this too incase you need to program your opcodes
