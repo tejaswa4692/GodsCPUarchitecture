@@ -161,37 +161,34 @@
       <a name="label" val="Red_A_Q"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="0" loc="(510,390)" name="Tunnel">
+    <comp lib="0" loc="(310,310)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="CLR"/>
     </comp>
-    <comp lib="0" loc="(520,410)" name="Clock">
+    <comp lib="0" loc="(320,330)" name="Clock">
       <a name="appearance" val="NewPins"/>
     </comp>
-    <comp lib="0" loc="(650,490)" name="Tunnel">
+    <comp lib="0" loc="(450,410)" name="Tunnel">
       <a name="label" val="CLR"/>
     </comp>
-    <comp lib="0" loc="(790,290)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-    </comp>
-    <comp lib="0" loc="(800,580)" name="Tunnel">
+    <comp lib="0" loc="(580,580)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="CLR"/>
     </comp>
-    <comp lib="0" loc="(800,600)" name="Clock">
+    <comp lib="0" loc="(580,600)" name="Clock">
       <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(630,380)" name="Constant"/>
+    <comp lib="4" loc="(700,320)" name="RAM">
+      <a name="addrWidth" val="4"/>
+      <a name="appearance" val="logisim_evolution"/>
     </comp>
     <comp lib="5" loc="(1360,360)" name="Hex Digit Display"/>
     <comp lib="5" loc="(1670,1000)" name="Hex Digit Display"/>
     <comp lib="5" loc="(1930,510)" name="Hex Digit Display"/>
     <comp lib="5" loc="(1930,760)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(630,540)" name="DipSwitch">
+    <comp lib="5" loc="(430,460)" name="DipSwitch">
       <a name="number" val="1"/>
-    </comp>
-    <comp lib="5" loc="(790,270)" name="DipSwitch">
-      <a name="facing" val="south"/>
     </comp>
     <comp lib="6" loc="(1480,500)" name="74157">
       <a name="facing" val="south"/>
@@ -202,13 +199,13 @@
     <comp lib="6" loc="(1480,850)" name="74157">
       <a name="facing" val="south"/>
     </comp>
-    <comp loc="(1030,390)" name="RAM_Simulator"/>
     <comp loc="(1290,390)" name="instruction_reg"/>
     <comp loc="(1290,580)" name="control"/>
     <comp loc="(1600,1060)" name="alu"/>
     <comp loc="(1910,550)" name="reg_a"/>
     <comp loc="(1920,800)" name="reg_b"/>
-    <comp loc="(750,390)" name="Program_counter"/>
+    <comp loc="(550,310)" name="Program_counter"/>
+    <wire from="(1030,390)" to="(1030,410)"/>
     <wire from="(1030,390)" to="(1070,390)"/>
     <wire from="(1050,410)" to="(1050,580)"/>
     <wire from="(1050,410)" to="(1070,410)"/>
@@ -363,16 +360,25 @@
     <wire from="(1930,550)" to="(1970,550)"/>
     <wire from="(1930,760)" to="(1930,800)"/>
     <wire from="(1930,800)" to="(1960,800)"/>
-    <wire from="(510,390)" to="(530,390)"/>
-    <wire from="(520,410)" to="(530,410)"/>
-    <wire from="(640,490)" to="(640,540)"/>
-    <wire from="(640,490)" to="(650,490)"/>
-    <wire from="(740,410)" to="(750,410)"/>
-    <wire from="(750,390)" to="(810,390)"/>
-    <wire from="(790,290)" to="(790,410)"/>
-    <wire from="(790,410)" to="(810,410)"/>
-    <wire from="(800,580)" to="(1050,580)"/>
-    <wire from="(800,600)" to="(1060,600)"/>
+    <wire from="(310,310)" to="(330,310)"/>
+    <wire from="(320,330)" to="(330,330)"/>
+    <wire from="(410,410)" to="(410,490)"/>
+    <wire from="(410,410)" to="(450,410)"/>
+    <wire from="(410,490)" to="(420,490)"/>
+    <wire from="(420,450)" to="(420,490)"/>
+    <wire from="(420,450)" to="(440,450)"/>
+    <wire from="(440,450)" to="(440,460)"/>
+    <wire from="(540,330)" to="(550,330)"/>
+    <wire from="(550,310)" to="(580,310)"/>
+    <wire from="(580,310)" to="(580,330)"/>
+    <wire from="(580,330)" to="(700,330)"/>
+    <wire from="(580,580)" to="(1050,580)"/>
+    <wire from="(580,600)" to="(650,600)"/>
+    <wire from="(630,380)" to="(700,380)"/>
+    <wire from="(650,390)" to="(650,600)"/>
+    <wire from="(650,390)" to="(700,390)"/>
+    <wire from="(650,600)" to="(1060,600)"/>
+    <wire from="(940,410)" to="(1030,410)"/>
   </circuit>
   <circuit name="full_adder_1_bit">
     <a name="appearance" val="logisim_evolution"/>
@@ -523,28 +529,45 @@
     <appear>
       <rect fill="none" height="40" stroke="#000000" width="35" x="50" y="50"/>
       <circ-anchor facing="east" x="50" y="60"/>
-      <circ-port dir="in" pin="100,220" x="50" y="60"/>
       <circ-port dir="in" pin="230,220" x="50" y="70"/>
-      <circ-port dir="out" pin="230,270" x="50" y="80"/>
+      <circ-port dir="in" pin="80,410" x="50" y="60"/>
+      <circ-port dir="in" pin="80,480" x="50" y="90"/>
+      <circ-port dir="out" pin="530,540" x="50" y="80"/>
     </appear>
-    <comp lib="0" loc="(100,220)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="label" val="Addr"/>
-      <a name="labelloc" val="north"/>
-      <a name="width" val="4"/>
-    </comp>
     <comp lib="0" loc="(230,220)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="label" val="D_IN"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="0" loc="(230,270)" name="Pin">
+    <comp lib="0" loc="(530,540)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="label" val="D_OUT"/>
       <a name="type" val="output"/>
       <a name="width" val="8"/>
     </comp>
-    <wire from="(230,220)" to="(230,270)"/>
+    <comp lib="0" loc="(80,410)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="Addr"/>
+      <a name="labelloc" val="north"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(80,480)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="Clock"/>
+    </comp>
+    <comp lib="4" loc="(180,410)" name="RAM">
+      <a name="addrWidth" val="4"/>
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <wire from="(180,410)" to="(180,420)"/>
+    <wire from="(230,220)" to="(230,350)"/>
+    <wire from="(420,500)" to="(500,500)"/>
+    <wire from="(500,490)" to="(500,500)"/>
+    <wire from="(500,490)" to="(540,490)"/>
+    <wire from="(530,540)" to="(540,540)"/>
+    <wire from="(540,490)" to="(540,540)"/>
+    <wire from="(80,410)" to="(180,410)"/>
+    <wire from="(80,480)" to="(180,480)"/>
   </circuit>
   <circuit name="instruction_reg">
     <a name="appearance" val="logisim_evolution"/>
